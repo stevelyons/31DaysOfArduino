@@ -1,16 +1,26 @@
-// day 2
+// Steve Lyons
+// Day 2 
 
-int ledPin = 13;                // LED connected to digital pin 13
+// LED connected to digital pin 13
+int ledPin = 13;
 
+// sets the digital pin as output
 void setup()
 {
-  pinMode(ledPin, OUTPUT);      // sets the digital pin as output
+  pinMode(ledPin, OUTPUT);
 }
 
 void loop()
 {
-  digitalWrite(ledPin, HIGH);   // sets the LED on
-  delay(1000);                  // waits for a second
-  digitalWrite(ledPin, LOW);    // sets the LED off
-  delay(1000);                  // waits for a second
+  // set the LED on
+  digitalWrite(ledPin, HIGH);
+  
+  // wait for a second
+  delay(1000);
+  
+  // sets the LED off
+  digitalWrite(ledPin, LOW);
+  
+  // wait for a second
+  delay(1000);
 }
