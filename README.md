@@ -6,7 +6,7 @@
 #Projects
 
 - [Day1](Day1/) Getting Started
-- [Day2](Day2/)
+- [Day2](Day2/) LED 
 - [Day3](Day3/)
 - [Day4](Day4/)
 - [Day5](Day5/)
